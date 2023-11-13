@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background-color: rgb(237, 237, 229);
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: -50px;
+    margin-bottom: 0;
+    height: 350px;
+    background-image: url("lyhtybanner.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+header h1 {
+    color: brown;
+    padding-left: 270px;
+    padding-top: 100px;
+    font-size: 4em;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+nav li {
+    list-style-type: none;
+}
+nav li a {
+    color:brown;
+    padding: 15px;
+    font-size: larger;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color:rgb(103, 9, 9);
+    cursor: pointer;
+}
+
+main {
+    margin: 20px;
+    font-size:larger;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2, h3 {
+    color: brown;
+}
+
+img {
+    height: 150px;
+    display: block;
+    margin:auto;
+}
+@media(max-width: 900px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    header h1 {
+        padding-left: 50px;
+    }
+    nav li {
+        margin-top: 10px;
+}
+}
